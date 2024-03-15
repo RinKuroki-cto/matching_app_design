@@ -1,0 +1,209 @@
+@media (max-width: 768px) {
+  .women-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .women-container {
+    height: 100%;
+    padding: 0 !important;
+    border-radius: 20px;
+  }
+  .women-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .women-title {
+    padding-top: 35px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: #bd8ade;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .women-required {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #7c7c7c;
+    font-size: 13px;
+    text-align: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .email-label {
+    background-color: #d2b1e7;
+    display: flex;
+    margin-top: 10px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .email-label-text {
+    color: white;
+    font-size: 12px;
+  }
+
+  .email-required {
+    color: #fc5c6c;
+    background-color: white;
+    font-size: 12px;
+    padding: 1.5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 2px;
+  }
+
+  .women-mail {
+    margin-top: 25px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .domain-info,
+  .domain-info-detail {
+    text-align: center;
+    color: #646464;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    margin-top: 56px;
+  }
+
+  .domain-info-detail {
+    width: 95%;
+    color: #818181;
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+
+  .women-submit {
+    margin-top: 60px !important;
+    background-image: linear-gradient(to right, #dc52ff, #887eff);
+    color: white;
+    border-radius: 20px !important;
+    height: 42px;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 769px) {
+  .women-wrapper {
+    background-color: #bd8ade;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .women-container {
+    padding: 0 !important;
+    border-radius: 20px;
+    background-color: white;
+    padding-top: 55px;
+  }
+  .women-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .women-title {
+    color: #4f4545;
+    padding-top: 35px;
+    margin-bottom: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .women-required {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #7c7c7c;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  .email-label {
+    background-color: #d2b1e7;
+    display: flex;
+    margin-top: 10px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .email-label-text {
+    color: white;
+    font-size: 12px;
+  }
+
+  .email-required {
+    color: #fc5c6c;
+    background-color: white;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 1.5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 2px;
+  }
+
+  .women-mail {
+    margin-top: 25px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .domain-info,
+  .domain-info-detail {
+    text-align: center;
+    color: #646464;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    margin-top: 40px;
+  }
+
+  .domain-info-detail {
+    width: 95%;
+    color: #818181;
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+
+  .women-submit {
+    margin-bottom: 20px !important;
+    background-image: linear-gradient(to right, #dc52ff, #887eff);
+    color: white;
+    border-radius: 12px;
+    height: 42px;
+    font-weight: bold;
+  }
+}

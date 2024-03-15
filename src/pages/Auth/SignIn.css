@@ -1,0 +1,129 @@
+@media (max-width: 768px) {
+  .signin-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+
+  .container {
+    height: 100%;
+    padding: 0 !important;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .signin-title {
+    padding-top: 35px;
+    padding-bottom: 5px;
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: #bd8ade;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 28px !important;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-box {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }
+
+  .icon-margin {
+    margin-right: 10px;
+  }
+
+  .login-btn {
+    margin-top: 128px !important;
+    margin-bottom: 64px !important;
+    background-image: linear-gradient(to right, #dc52ff, #887eff);
+    color: white !important;
+    border-radius: 20px !important;
+    height: 42px;
+  }
+
+  .link-style {
+    color: #60828c;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .signup-link {
+    color: #ad26ff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .signin-wrapper {
+    height: 100vh;
+    display: flex;
+    background-color: #bd8ade; /* Red color for desktop */
+    align-items: center;
+  }
+  .container {
+    height: 50%;
+    padding: 0 !important;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .signin-title {
+    padding-top: 55px;
+    width: 100%;
+    color: #4f4545;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-box {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }
+
+  .icon-margin {
+    margin-right: 10px;
+  }
+
+  .login-btn {
+    margin-top: 40px !important;
+    margin-bottom: 24px !important;
+    background-image: linear-gradient(to right, #dc52ff, #887eff);
+    color: white !important;
+    border-radius: 12px !important;
+    height: 42px;
+  }
+
+  .link-style {
+    color: #60828c;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .signup-link {
+    color: #ad26ff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .terms-link {
+    text-decoration: none I !important;
+    color: #8b7bff;
+  }
+}

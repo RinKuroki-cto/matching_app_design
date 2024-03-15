@@ -1,0 +1,223 @@
+@media (max-width: 768px) {
+  .code-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .code-container {
+    padding: 0 !important;
+    height: 100%;
+    background-color: white;
+  }
+
+  .code-title {
+    padding-top: 35px;
+    padding-bottom: 5px;
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: #bd8ade;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .code-box {
+    border-radius: 20px;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+
+  .code-description {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #7c7c7c;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    width: 90%;
+    margin: auto;
+  }
+
+  .require_label {
+    background-color: #d2b1e7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    font-size: 12px;
+  }
+  .require1 {
+    color: white;
+    font-size: 12px;
+  }
+
+  .require2 {
+    color: #fc5c6c;
+    background-color: white;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 1.5px;
+    border-radius: 2px;
+    height: 50%;
+    align-items: center;
+  }
+
+  .code-input-section {
+    display: flex;
+    align-items: flex-end;
+    width: 90%;
+    margin: auto;
+  }
+
+  .icon-color {
+    color: #bd8ade;
+    margin-right: 10px;
+  }
+
+  .domain-info,
+  .domain-info-detail {
+    text-align: center;
+    color: #646464;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    margin-top: 65px;
+    margin-bottom: 40px;
+  }
+
+  .domain-info-detail {
+    width: 90%;
+    color: #818181;
+    font-size: 12px;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .code-submit {
+    margin-top: 40px;
+    margin-bottom: 5px !important;
+    background-image: linear-gradient(to right, #dc52ff, #887eff);
+    color: white;
+    border-radius: 20px !important;
+    height: 42px;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 769px) {
+  .code-wrapper {
+    background-color: #bd8ade;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .code-container {
+    padding: 0 !important;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .code-title {
+    padding-top: 35px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .code-box {
+    border-radius: 20px;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+
+  .code-description {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #7c7c7c;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+  }
+
+  .require_label {
+    background-color: #d2b1e7;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    font-size: 12px;
+  }
+  .require1 {
+    color: white;
+    font-size: 12px;
+  }
+
+  .require2 {
+    color: #fc5c6c;
+    background-color: white;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 1.5px;
+    border-radius: 2px;
+    height: 50%;
+    align-items: center;
+  }
+
+  .code-input-section {
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    margin: auto;
+  }
+
+  .icon-color {
+    color: #bd8ade;
+    margin-right: 10px;
+  }
+
+  .domain-info,
+  .domain-info-detail {
+    text-align: center;
+    color: #646464;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    margin-top: 65px;
+    margin-bottom: 40px;
+  }
+
+  .domain-info-detail {
+    width: 72%;
+    color: #818181;
+    font-size: 12px;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .code-submit {
+    margin-top: 40px;
+    margin-bottom: 5px !important;
+    background-image: linear-gradient(to right, #dc52ff, #887eff);
+    color: white;
+    border-radius: 12px;
+    height: 42px;
+    font-weight: bold;
+  }
+}

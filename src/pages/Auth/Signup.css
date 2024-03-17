@@ -52,7 +52,7 @@
     margin-bottom: 36px !important;
     background-image: linear-gradient(to right, #dc52ff, #887eff);
     color: white;
-    border-radius: 12px;
+    border-radius: 20px !important;
     height: 42px;
     font-weight: bold;
   }
@@ -62,7 +62,7 @@
     margin-bottom: 145px !important;
     background-image: linear-gradient(to right, #dc52ff, #887eff);
     color: white;
-    border-radius: 12px;
+    border-radius: 20px !important;
     height: 42px;
     font-weight: bold;
   }

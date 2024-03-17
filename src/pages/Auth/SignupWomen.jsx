@@ -15,7 +15,8 @@ const SignupWomen = () => {
       <Container className="women-container" component="main" maxWidth="xs">
         <Box className="women-box">
           <div className="women-title">
-            <LoginIcon fontSize="small" /> 女性会員登録
+            <LoginIcon fontSize="small" style={{ marginRight: '8px' }} />{' '}
+            女性会員登録
           </div>
           <Box component="form" noValidate>
             <div className="form-section">

@@ -1,29 +1,11 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
-import Link from '@mui/material/Link';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import { ReactComponent as LoginIcon } from '../../assets/login_icon.svg';
 
-import { createTheme } from '@mui/material/styles';
 import { Link as RouterLink } from 'react-router-dom';
 import './Signup.css';
-
-// TODO remove, this demo shouldn't need to reset the theme.
-const theme = createTheme({
-  components: {
-    MuiCheckbox: {
-      styleOverrides: {
-        root: {
-          color: '#AC26FF', // Change the color here
-          '&.Mui-checked': {
-            color: '#AC26FF', // Change the color when checked
-          },
-        },
-      },
-    },
-  },
-});
 
 export default function SignUp() {
   return (

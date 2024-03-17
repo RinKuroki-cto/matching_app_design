@@ -13,7 +13,7 @@
 
   .code-title {
     padding-top: 35px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     width: 100%;
     margin-bottom: 40px;
     background-color: #bd8ade;
@@ -30,7 +30,15 @@
   .code-box {
     border-radius: 20px;
     margin: auto;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
+  }
+  .code-content {
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #575757;
+    font-weight: bold;
   }
 
   .code-description {

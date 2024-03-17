@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+  .women-register-container {
+    height: 100vh;
+    display: flex;
+    padding: 0 !important;
+    align-items: center;
+  }
+
+  .women-register-box {
+    padding-top: 35px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #bd8ade;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 28px;
+    margin-bottom: 35px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .women-register-header {
+    display: flex;
+    align-items: center;
+  }
+  .women_input_group {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .required_sent {
+    color: #1a1a1a;
+    font-family: Noto Sans JP;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  .required_word {
+    color: red;
+    height: 80%;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .date_sign {
+    color: #1a1a1a;
+    font-size: 14px;
+    padding: 5px;
+  }
+  .input-group-item {
+    margin-bottom: 15px;
+  }
+  .women-register-btn {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    background-image: linear-gradient(to right, #dc52ff, #887eff);
+    color: white;
+    border-radius: 20px !important;
+    height: 42px;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 769px) {
+}
